@@ -22,11 +22,9 @@ You will need a rasperry pi with a cberry display.
 
 To have it start when the raspberry is powered on, create a script home_display.sh with the following content in /etc/init.d (do this as user root, with: sudo nano home_display.sh):
  
- ...
  #! /bin/sh
  cd [source directory]/home_display
  python display-py > display.log
- ...
  
 make the script executable with: sudo chmod 755 home_display.sh
 add this script to the start with:  sudo update-rc.d home_display.sh defaults
