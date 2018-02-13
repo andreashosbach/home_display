@@ -55,7 +55,7 @@ Clone and run...
 
 * **Andreas Hosbach** - [AndreasHosbach](https://github.com/AndreasHosbach)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/AndreasHosbach/home_display/contributors) who participated in this project.
 
 ## License
 
@@ -63,6 +63,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hat tip to anyone who wrote tutorials about raspberry pi.
