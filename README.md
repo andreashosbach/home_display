@@ -24,13 +24,11 @@ To have it start when the raspberry is powered on, create a script home_display.
  
  #! /bin/sh
  cd [source directory]/home_display
- python display-py > display.log
+ python display.py > display.log
  
 make the script executable with: sudo chmod 755 home_display.sh
 add this script to the start with:  sudo update-rc.d home_display.sh defaults
  
-You can add this in a script in /et6c/init.d 
-
 ## Running the tests
 
 There are currently no tests :P
@@ -39,14 +37,6 @@ There are currently no tests :P
 ## Deployment
 
 Clone and run...
-
-## Built With
-
-
-## Contributing
-
-
-## Versioning
 
 
 ## Authors
